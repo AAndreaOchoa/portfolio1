@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+}
+
+html {
+    background-color: #BFBDBA;
+}
+
+header, section {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.navLinks {
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.leaf-btn {
+    background-image: url("../img/leaf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 110px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+
+.logo {
+    width: 90px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.me img {
+    width: 300px;
+}
+
+.inspo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inspo img {
+    width: 900px;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lists img {
+    width: 900px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #515956;
+}
+
+p {
+    color: #515956; 
+}
+
+h2, h3 {
+    text-transform: capitalize;
+    color: #515956;
+}
+
+.listLinks a {
+    text-decoration: none;
+}
+
+.inspoLinks a {
+    text-decoration: none;
+}
