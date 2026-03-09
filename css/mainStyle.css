@@ -99,3 +99,8 @@ h2, h3 {
 .inspoLinks a {
     text-decoration: none;
 }
+
+.inspoLinks {
+    margin-left: 20px;
+    margin-right: 20px;
+}
