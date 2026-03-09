@@ -76,15 +76,13 @@ nav {
 p {
     text-align: center;
     margin-top: 10px;
+    color: #515956; 
+    padding: 20px;
 }
 
 h1 {
     text-transform: uppercase;
     color: #515956;
-}
-
-p {
-    color: #515956; 
 }
 
 h2, h3 {
