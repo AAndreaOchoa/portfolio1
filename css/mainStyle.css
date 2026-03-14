@@ -7,9 +7,15 @@ html {
     background-color: #BFBDBA;
 }
 
-header, section {
+header {
     text-align: center;
     background-color: #ecebe7;
+}
+
+section {
+    margin-top: 20px;
+    text-align: center;
+
 }
 
 nav {
