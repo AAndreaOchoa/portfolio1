@@ -9,6 +9,7 @@ html {
 
 header, section {
     text-align: center;
+    background-color: #ecebe7;
 }
 
 nav {
@@ -21,8 +22,9 @@ nav {
 .navLinks {
     display: flex;
     gap: 25px;
-    margin: 0 auto;
 }
+
+/* citing this resouce that helped me with the buttons: https://www.w3schools.com/css/css3_buttons.asp */
 
 .leaf-btn {
     background-image: url("../img/leaf.png");
@@ -35,8 +37,53 @@ nav {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #F2F2F2;
+    color: #f2f2f2;
     font-weight: bold;
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    gap: 340px;
+    margin-top: 20px;
+    color: #515956;
+}
+
+.content a {
+    text-decoration: none;
+    color:#515956;
+}
+
+/* citing for hoover effect help: https://www.w3schools.com/cssref/sel_hover.php */
+
+.content a:hover {
+    color: #F2F2F2;
+}
+
+h3:hover {
+    color: #F2F2F2;
+}
+
+.matchaList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail-btn {
+    background-image: url("../img/mail.gif");
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight:bolder;
+
 }
 
 .logo {
@@ -90,9 +137,6 @@ h2, h3 {
     color: #515956;
 }
 
-.listLinks a {
-    text-decoration: none;
-}
 
 .inspoLinks a {
     text-decoration: none;
