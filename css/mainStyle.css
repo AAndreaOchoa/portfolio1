@@ -104,10 +104,11 @@ h3:hover {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .inspo img {
-    width: 900px;
+    width: 850px;
 }
 
 .lists {
