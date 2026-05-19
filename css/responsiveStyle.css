@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+min-height: 100dvh;
+width: 100%;
+background-color: #BFBDBA;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: #ecebe7;
+}
+
+section {
+    margin-top: 2%;
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 4%;
+    width: 100%;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    width: 50%;
+
+}
+
+/* citing this resource that helped me with the buttons: https://www.w3schools.com/css/css3_buttons.asp */
+
+.leaf-btn {
+    background-image: url("../img/leaf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18%;
+    height: 8dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    gap: 15%;
+    margin-top: 2%;
+    color: #515956;
+}
+
+.content a {
+    text-decoration: none;
+    color:#515956;
+}
+
+/* citing for hoover effect help: https://www.w3schools.com/cssref/sel_hover.php */
+
+.content a:hover {
+    color: #F2F2F2;
+}
+
+h3:hover {
+    color: #F2F2F2;
+}
+
+.matchaList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail-btn {
+    background-image: url("../img/mail.gif");
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 9%;
+    height: 16dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-weight:bolder;
+}
+
+.logo {
+    width: 9%;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.me img {
+    width: 30%;
+}
+
+.inspo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.inspo img {
+    width: 85%;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lists img {
+    width: 90%;
+}
+
+p {
+    text-align: center;
+    color: #515956; 
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #515956;
+}
+
+h2, h3 {
+    text-transform: capitalize;
+    color: #515956;
+}
+
+
+.inspoLinks a {
+    text-decoration: none;
+}
+
+.inspoLinks {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inspoItem {
+    width: 30%;
+}
+
+.myWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #515956;
+    margin-bottom: 4%;
+}
+
+.myWork img {
+    width: 30%;
+    margin-top: 2%;
+}
+
+/* -------- media queries --------- */
+
+@media screen and (max-width: 600px) {
+    nav {
+        justify-content: space-between;
+        padding: 3% 6%;
+    }
+
+    .navLinks {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 10dvh;
+        background-color: #ecebe7;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .logo {
+        width: 18%;
+    }
+
+    .mail-btn {
+        width: 18%;
+        height: 12dvh;
+    }
+
+    .leaf-btn {
+        width: 20%;
+        height: 6dvh;
+        font-size: 0.8em;
+    }
+
+    body {
+        padding-bottom: 12dvh;
+    }
+  
+    }
